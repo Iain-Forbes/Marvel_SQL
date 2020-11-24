@@ -65,7 +65,7 @@ DELETE FROM people WHERE id = 11;
 -- Add Infinty War
 INSERT INTO movies(id, title, year, show_time) VALUES (20, 'Avengers: Infinty War', 2018, '00:00');
 -- Change Iron Man 2 time
-UPDATE movies SET show_time = '20:55' WHERE ID = 7;
+UPDATE movies SET show_time = '20:45' WHERE ID = 7;
 -- Return changed database, moved from start to end to reflect changes
 SELECT * FROM Movies; 
 SELECT name, id FROM people;
